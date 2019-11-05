@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+商品一覧
+<br>
+
+<div>手帳ノート  1,000円</div>
+<form th:action="@{/exam06/addNote}" method="post">
+<button>カートへ</button>
+</form>
+
+<div>文房具セット  1,500円</div>
+<form th:action="@{/exam06/addStationely}" method="post">
+<button>カートへ</button>
+</form>
+
+<div>ファイル  2,000円</div>
+<form th:action="@{/exam06/addFile}" method="post">
+<button>カートへ</button>
+</form>
+<br>
+<br>
+ショッピングカート
+<br>
+
+
+
+
+
+</body>
+</html>
